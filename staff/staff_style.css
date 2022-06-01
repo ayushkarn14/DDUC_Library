@@ -1,0 +1,118 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.logo {
+    width: 80px;
+}
+#cname {
+    color: rgb(175, 63, 175);
+    text-align: center;
+    font-family: Calibri;
+    font-size: 200%;
+}
+
+.nav-options {
+    margin: 0%;
+    font-size: 105%;
+    float: left;
+}
+.nav-text:hover {
+    background-color: rgb(168, 60, 168);
+}
+.nav-text {
+    background-color: rgb(129, 46, 129);
+    color: white;
+    padding: 2%;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    margin: 0%;
+    border: 1px;
+    border-style: solid;
+}
+.sidecontent {
+    font-weight: 500;
+    font-size: 110%;
+    color: rgb(187, 50, 160);
+    border: 1px;
+    border-style: solid;
+    margin: 0%;
+    padding: 6%;
+    background-color: rgb(248, 241, 250);
+}
+.ser {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    font-weight: 700;
+    color: rgb(212, 72, 225);
+    margin-top: 20px;
+}
+.row_head {
+    font-size: 130%;
+    font-weight: 700;
+    color: rgb(212, 72, 225);
+}
+.col-4 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.row_content {
+    font-size: 120%;
+    color: rgb(212, 72, 225);
+}
+.row_pic {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.layout_pic {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 30vw;
+}
+
+.row_head,
+.row_content {
+    padding-left: 50px;
+    width: 98vw;
+}
+.table_wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    padding: 10px;
+}
+
+.table_head {
+    background-color: rgb(152, 35, 142);
+}
+@media only screen and (max-width: 730px) {
+    #cname {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .row_head {
+        font-size: 100%;
+    }
+    .row_content {
+        font-size: 80%;
+    }
+    .layout_pic {
+        width: 50vw;
+    }
+    #cname {
+        font-size: 100%;
+    }
+    .logo {
+        width: 50px;
+    }
+}
