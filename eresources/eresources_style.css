@@ -1,23 +1,15 @@
-.mar {
-    width: 40vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.box {
-    text-align: center;
+ul {
     font-size: 110%;
-    color: rgb(146, 49, 155);
-    margin-bottom: 50px;
     background-color: #e7e3f6;
     border-radius: 20px;
     padding: 30px 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50vw;
 }
 @media only screen and (max-width: 576px) {
-    .mar {
-        width: 80vw;
+    ul {
+        width: 95vw;
     }
 }
